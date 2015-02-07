@@ -1,12 +1,15 @@
-<head id = header>
-	<link rel="stylesheet" type="text/css" href="design.css">
-	<h1>Resolution</h1>
-	<h2>Bet on yourself!</h2>
-	<ul id = "navigation">
-		<li><a href = log_in.html>Log In</a></li>
-		<li><a href = sign_up.html>Sign Up</a></li>
-	</ul>
-</head>
-<body>
-	<h3>Log In</h3>
-</body>
+{extends file = "before_login.tpl"}
+{block name = "header"}
+{/block}
+{block name = "body"}
+	<form>
+		<h3>Log In</h3>
+		<h4 id = "form">Email Address:</h4>
+		<input type="text" name="email_address" placeholder="Email Address">
+		<h4 id = "form">Password:</h4>
+		<input type="text" name="password" placeholder="Password">
+		<br>
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+{/block}

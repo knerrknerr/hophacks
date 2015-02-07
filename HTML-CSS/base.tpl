@@ -1,6 +1,6 @@
 <head>
-	<link rel="stylesheet" type="text/css" href="design.css">
-	<h1>Resolution</h1>
+	<link rel = "stylesheet" type = "text/css" href = "base.css">
+	<h1>Goalie
 	<h2>Bet on yourself!</h2>
 	<ul id = "navigation">
 		<li><a href = my_profile.html>My Profile</a></li>
@@ -10,4 +10,5 @@
 	</ul>
 </head>
 <body>
+{block name = body}
 </body>
